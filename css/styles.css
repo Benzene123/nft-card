@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.zero {
+    box-sizing: border-box;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    max-width: 350px;
+    margin: 50px auto;
+    border-radius: 15px;
+
+}
+.one img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+.one p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300; 
+}
+.two {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.two p {
+   display: inline;
+   font-size: 15px;
+   font-weight: 300; 
+}
+.a{
+    color: hsl(178, 100%, 50%);
+}
+.three {
+    padding-top: 10px;
+    display: flex;
+
+}
+hr {
+    opacity: 0.3;
+}
+.three img {
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.three p {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 300; 
+}
+span,h3 {
+    color: white;
+}
+h3:hover {
+    color: hsl(178, 100%, 50%);
+}
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
